@@ -1,38 +1,55 @@
-.App {
+body{
+  background-color: teal;
+}
+
+.heading{
+  text-align : center;
+  font-family : cursive; 
+  color : lavender;
+  margin-top: 30px;;
+}
+
+.input-form{
   text-align: center;
+  margin-top: 100px;
+}
+.result{
+  font-size: 20px;
+  border : 1px solid whitesmoke;
+  padding: 10px;
+  margin-top: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input-class{
+  margin-left: 20px;
+  font-size: 20px;
+  border : 1px solid whitesmoke;
+  padding: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.submit-button{
+  margin-left: 30px;
   color: white;
+  background: rgb(0, 113, 235);
+  border: 2px solid rgb(0, 113, 235);
+  border-radius: 8px;
+  cursor: pointer;
+  outline-offset: 4px;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.table-class{
+  display: flex;
+  font-size: 20px;
+  margin-left: 650px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.edit-btn{
+  margin-left: 10px;
+  cursor: pointer;
+}
+.list-class{
+  display: flex;
+  margin-left: 650px;
+  font-size: 20px;
 }
