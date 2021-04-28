@@ -42,14 +42,70 @@ body{
 .table-class{
   display: flex;
   font-size: 20px;
-  margin-left: 650px;
+  margin-left: 500px;
 }
 .edit-btn{
   margin-left: 10px;
   cursor: pointer;
+  padding: 5px;
+  width: 80px;
+  background: #e14c67;
+  border-radius: 5px;
+  border: 0;
+  color: white;
+  font-weight: bold;
 }
+
 .list-class{
   display: flex;
-  margin-left: 650px;
+  margin-left: 500px;
   font-size: 20px;
+  border-left: 1px solid white;
+}
+
+.thHeading{
+  padding-right: 3rem;
+  border-right: 1px solid white;
+  padding-left: 3rem;
+}
+.tab-class{
+  margin-top: 30px;
+  border : 1px solid white;
+}
+.thHeading3{
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+.td-class{
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.td-input1{
+padding-left: 5rem;
+width: 5.9rem;
+background-color: teal;
+border : 0;
+border-bottom: 1px-solid white;
+font-size: large;
+}
+.td-input2{
+  width: 4.4rem;
+  padding-left: 4rem;
+  background-color: teal;
+  border-bottom: 1px-solid white;
+  border : 0;
+  font-size: large;
+}
+.td-input3{
+  padding-left: 5rem;
+  width: 5.7rem;
+  background-color: teal;
+  border-bottom: 1px-solid white;
+  border : 0;
+  font-size: large;
+}
+.td-class3{
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
 }

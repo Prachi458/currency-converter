@@ -56,23 +56,23 @@ class InputForm extends Component{
                 
                 <input type="text" value={this.state.result} className="result"/>
                 <div className="table-class">
-                <table>
+                <table className="tab-class">
                     <tr>
-                        <th style={{padding : "0.5rem"}}>Currency</th>
-                        <th style={{padding : "0.5rem"}}>Rate</th>
-                        <th style={{padding : "0.5rem"}}>Amount</th>
+                        <th className="thHeading">Currency</th>
+                        <th className="thHeading">Rate</th>
+                        <th className="thHeading3">Amount</th>
                     </tr>
                 </table>
                 </div>
                 {this.state.historyList.map((item,index)=>{
                     return(
                         <div>
-                            <table class="list-class">
+                            <table className="list-class">
                                 <tr>
-                                    <td style={{padding : "1.6rem"}}>{item.selectedCurrency}</td>
-                                    <td style={{padding : "1.6rem"}}>{item.conversionRate}</td>
-                                    <td style={{padding : "1.6rem"}}>{item.amount}</td>
-                                    <td style={{padding : "1.6rem"}}><button onClick={ () => this.handleEdit(index)} className="edit-btn">edit</button></td>
+                                    <td  className="td-class"><input type="text" value={item.selectedCurrency} className="td-input1"/></td>
+                                    <td  className="td-class"><input type="text" value={item.conversionRate} className="td-input2"/></td>
+                                    <td  className="td-class3"><input type="text" value={item.amount} className="td-input3"/></td>
+                                    <td className=""><button onClick={ () => this.handleEdit(index)} className="edit-btn">Edit</button></td>
                                 </tr>
                             </table>
                            
